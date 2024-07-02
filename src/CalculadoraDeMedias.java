@@ -5,7 +5,7 @@ public class CalculadoraDeMedias {
         Scanner scan = new Scanner(System.in);
         String[] alunos = {"Johnes", "Flp", "Vinino", "Victor"};
         double media = calculaMediaDaTurma(alunos, scan);
-        System.out.printf("Média da turma %f", media);
+        System.out.printf("Média da turma %.1f", media);
     }
     public static double calculaMediaDaTurma(String[] alunos, Scanner scanner){
         double soma = 0;
